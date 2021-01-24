@@ -11,3 +11,8 @@ chmod +x start.sh
 
 Then follow the sentences.
 Metni takip ederseniz kurulum tamamlanır.
+
+
+!!Not!!Notes!!
+Lütfen repoları güncelleyin yani 'sudo apt update' kodunu çalıştırıp bu uygulamayı başlatın.
+Please update the repos, so run the 'sudo apt update' code and print these versions.
