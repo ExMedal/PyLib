@@ -2,8 +2,7 @@
 echo "1) English"
 echo "2) Türkçe"
 read dil
-if [ $dil -eq 2]; then
-
+if [ $dil -eq 2 ]; then
 	echo "Kurulum yapılması gerekiyor. Devam edilsin mi?(1/2) "
 	echo "1) Kurulum"
 	echo "2) Kurma"
