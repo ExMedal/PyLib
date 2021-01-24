@@ -37,7 +37,7 @@ while True:
             tm.sleep(3)
         else:continue
     elif (kutuphane == 2):
-        print(" 1) PyQt5      5) Tkinter\n 2) Kivy      6) Flexx \n 3) Dabo      7) PyGUI\n 4) CEF python      8) Platform \n 99) Quit \n\n")
+        print(" 1) PyQt5           5) Tkinter\n 2) Kivy            6) Flexx \n 3) Dabo            7) PyGUI\n 4) CEF python      8) Platform \n 99) Quit \n\n")
         desktop = int(input("Which one would you like to install? "))
         if (desktop == 1):
             sh.contrib.sudo.pip3("install", "PyQt5")
@@ -69,7 +69,7 @@ while True:
             tm.sleep(3)
         else:continue
     elif (kutuphane == 3):
-        print(" 1) SciPy      5) SciKit-Learn      9)Seaborn\n 2) Numpy      6) PyTorch      10)Bokeh\n 3) Pandas      7)Tensorflow      11)Pydot\n 4) Keras      8)Matplotlib      12)Plotly\n 99) Quit \n\n")
+        print(" 1) SciPy      5) SciKit-Learn   9)Seaborn\n 2) Numpy      6) PyTorch        10)Bokeh\n 3) Pandas     7)Tensorflow      11)Pydot\n 4) Keras      8)Matplotlib      12)Plotly\n 99) Quit \n\n")
         veri = int(input("Which one would you like to install? "))
         if(veri==1):
             sh.pip3("install", "scipy")
